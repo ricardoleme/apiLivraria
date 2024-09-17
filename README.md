@@ -1,4 +1,4 @@
-# Projeto REST API para Cadastro de Livros
+# 📚Projeto REST API para Cadastro de Livros
 
 Este projeto consiste em uma API REST utilizando `Node.js`, `Express`, `MongoDB`, `express-validator` e `nodemon` para o gerenciamento de um catálogo de livros. A API permite criar, listar, buscar, atualizar e excluir livros.
 
