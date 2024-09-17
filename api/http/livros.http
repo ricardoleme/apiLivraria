@@ -1,0 +1,56 @@
+// Teste da API REST de Livros
+@baseURL = http://localhost:4000/api/livros
+
+// GET - Lista todos os livros
+GET {{baseURL}}
+Content-Type: application/json
+
+
+###
+// GET - Lista o livro pelo ID
+GET {{baseURL}}/id/9780807286005
+Content-Type: application/json
+
+
+
+
+###
+// POST - Insere um novo livro
+POST {{baseURL}}
+Content-Type: application/json
+
+{
+    "ISBN": "9780807286005",
+    "titulo" : "A Biblia",
+    "tituloEs" : "La Biblia",
+    "paginas": 1803,
+    "lancamento": "2010-07-31",
+    "generos": ["religioso","espiritualidade","história","filosofia"],
+    "editora": "Aparecida",
+    "autores": ["São Mateus","São Lucas"],
+    "avaliacao": "⭐⭐⭐⭐⭐"
+}
+
+###
+// DELETE - Remove o prestador pelo id
+DELETE {{baseURL}}/9780807286005
+Content-Type: application/json
+
+
+
+###
+// PUT - Altera um livro existente
+PUT {{baseURL}}/9780807286005
+Content-Type: application/json
+
+{
+    "ISBN": "9780807286005",
+    "titulo" : "A Biblia Sagrada",
+    "tituloEs" : "La Biblia",
+    "paginas": 1803,
+    "lancamento": "2010-07-31",
+    "generos": ["religioso","espiritualidade","história","filosofia"],
+    "editora": "Aparecida Ltda.",
+    "autores": ["São Mateus","São Lucas"],
+    "avaliacao": "⭐⭐⭐⭐⭐"
+}

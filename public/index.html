@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fatec Itu</title>
+    <!-- CSS -->
+     <link rel="stylesheet" href="css/estilo.css" />
+</head>
+<body>
+    <h1>API Fatec Itu</h1> <!-- header -->
+    <h2>Seja bem vindo!</h2>
+    <p>Para testar a API, acesse: <a href="/api">API</a></p>
+    <!-- Tabelas em HTML -->
+     <table border="1">
+        <thead>
+            <tr> <!-- tr = table row-->
+                <th>Código</th> <!-- th = table header-->
+                <th>Descrição</th>
+                <th>Foto</th>
+                <th>Preço</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>01420</td> <!--td = table data -->
+                <td>
+                   <a href="produto.html">Arroz Agulhinha</a> 
+                </td>
+                <td>
+                    <img src="images/arroz.jpg"
+                         title="Arroz Camil"
+                         alt="Pacote de Arroz Camil" 
+                         class="foto"
+                         />
+                </td>
+                <td class="preco">27.90</td>
+            </tr>
+            <tr>
+                <td>0930</td>
+                <td>Feijão Preto</td>
+                <td>
+                    <img src="images/feijao.png"
+                         title="Feijão Camil"
+                         alt="Pacote de Feijão Camil" 
+                         class="foto"/>
+                </td>
+                <td class="preco">7.45</td>
+            </tr>
+            <tr>
+                <td colspan="3">Total Geral</td>
+                <td class="preco">35.35</td>
+            </tr>
+        </tbody>
+     </table>
+</body>
+</html>

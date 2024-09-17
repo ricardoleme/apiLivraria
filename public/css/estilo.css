@@ -1,0 +1,29 @@
+/* Estilo do Projeto */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+    background: #FFFFFF;
+    color: #000000;
+    font-family: 'Montserrat','Arial';
+}
+
+table{
+    background: #F0E1C0;
+    width: 50%; /*largura*/
+}
+
+th {
+    background: #FFE3E8;
+    padding: 8px;
+}
+
+p{
+    margin-bottom: 32px;
+}
+/* Classes CSS */
+.preco{
+    text-align: right; /* alinhamento do texto */
+}
+
+.foto{
+    height: 100px;
+}
